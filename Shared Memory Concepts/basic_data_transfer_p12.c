@@ -15,5 +15,6 @@ return 0;
 printf("id=%d\n",id);
 p=shmat(id,0,0);
 printf("%d\n",p);
+
 shmdt(p);
 }
